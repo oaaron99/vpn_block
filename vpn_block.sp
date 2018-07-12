@@ -134,11 +134,6 @@ public void		DB_CheckIP(Database dDB, DBResultSet dbResults, const char[] sError
 	}
 }
 
-public OnComplete(Handle:hndl, CURLcode: code)
-{
-    CloseHandle(hndl);
-}
-
 stock bool IsValidClient(int iClient)
 {
 	if (iClient < 1 || iClient > MaxClients)
