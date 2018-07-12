@@ -1,0 +1,6 @@
+CREATE TABLE IPS (
+    ID        int          NOT NULL AUTO_INCREMENT,
+    IP        varchar(45) NOT NULL,
+    Type      int,
+    PRIMARY KEY (ID)
+);
